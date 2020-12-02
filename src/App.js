@@ -8,7 +8,7 @@ function App() {
       <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand">Contact-Us</a>
       </nav>
-      <form>
+      <form style={{ margin: 50 }}>
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
