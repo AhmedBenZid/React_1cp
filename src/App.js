@@ -8,6 +8,29 @@ function App() {
       <nav class="navbar navbar-light bg-light justify-content-between">
         <a class="navbar-brand">Contact-Us</a>
       </nav>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#1" data-slide-to="0" class="active"></li>
+          <li data-target="#2" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img id="1" class="d-block w-100" src="https://hackernoon.com/hn-images/1*HSisLuifMO6KbLfPOKtLow.jpeg" alt="First slide" />
+          </div>
+          <div class="carousel-item">
+            <img id="2" class="d-block w-100" src="https://www.inovex.de/blog/wp-content/uploads/2022/01/one-year-of-react-native.png" alt="Second slide" />
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
       <form style={{ margin: 50 }}>
         <div class="form-group">
           <label for="exampleFormControlInput1">Email address</label>
